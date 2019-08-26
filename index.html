@@ -12944,7 +12944,7 @@ Name: Class, dtype: float64
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>There is little correlation between the features, with the exception of V29 (which from the plots above, seems to have very little predictive power)</li>
+<li>There is little correlation between the features, with the exception of V29 (which from the plots above, seems to have very little predictive power). This must be a consequence of the variables being centered, as pointed out earlier in the document</li>
 <li>Note that V29 is the only variable that is in a scale that is significantly different than the other variables (only positive values, on the order of a thousand, it could be length of stay at a hospital, for example).</li>
 </ul>
 <h2 id="Modeling-the-data">Modeling the data<a class="anchor-link" href="#Modeling-the-data">&#182;</a></h2><p>Given the seemingly uniform distribution of the missing data, and the variable distribution plots shown above, I use simple imputation to fill the missing data</p>
